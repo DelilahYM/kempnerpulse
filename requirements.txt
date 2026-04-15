@@ -1,0 +1,13 @@
+ipykernel
+ipython
+ipywidgets
+lightgbm
+matplotlib
+numpy
+openpyxl
+pandas
+seaborn
+shapely
+statsmodels
+xgboost
+kempnerpulse
