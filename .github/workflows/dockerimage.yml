@@ -1,4 +1,3 @@
-
 name: Build & Publish Docker Image
 on:
   release:
@@ -24,7 +23,7 @@ jobs:
         with:
           images: |
             delilahm/kempnerpulse
-          tags: 2.15
+          tags: type=semver,pattern={{version}}
       - name: Build & Publish Docker Image
         uses: docker/build-push-action@v5
         with:
