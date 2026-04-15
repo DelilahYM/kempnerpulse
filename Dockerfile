@@ -30,7 +30,6 @@ RUN conda update --all \
 # Update some common python packages
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-RUN pip install kempnerpulse
     
 # Set default shell to bash
 SHELL ["/bin/bash", "-c"]
